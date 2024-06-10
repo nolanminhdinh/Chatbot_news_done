@@ -1,6 +1,11 @@
 {
     "intents": [
-        
+        {
+            "title": "Sổ bảo hiểm điện tử có thể thay thế bản giấy vào năm 2026",
+            "summary": "Từ 1/1/2026, lao động được cấp sổ bảo hiểm xã hội (BHXH) điện tử, có thể dùng song hành với bản giấy, theo đề xuất của Bộ Lao động Thương binh và Xã hội.",
+            "news_link": "https://vnexpress.net/so-bao-hiem-dien-tu-co-the-thay-the-ban-giay-vao-nam-2026-4756202.html",
+            "category": "Thời sự"
+        },
         {
             "title": "Tài xế văng khỏi cao tốc Hạ Long - Vân Đồn",
             "summary": "Quảng NinhChạy xe trên cao tốc Hạ Long - Vân Đồn dưới trời mưa lớn, xe 7 chỗ tự lật nhiều vòng, tài xế văng khỏi hộ lan và tử nạn, sáng 9/6.",
