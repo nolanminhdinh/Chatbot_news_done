@@ -6,12 +6,15 @@ import random
 from flask import Flask, render_template, request
 
 # Load mô hình phân loại câu hỏi
-loaded_model_svm = joblib.load('model_intent_detection.joblib')
-vectorizer = joblib.load('vectorizer.joblib')
+model_detec = joblib.load('model_intent_detection.joblib')
+vectorizer_detec = joblib.load('vectorizer_detec.joblib')
 with open('label_question_detect.json', 'r', encoding='utf-8') as file:
     label_data = json.load(file)
 
 
+# Load mô hình hội thoại  
+model_conver = joblib.load('model_conversation.joblib')
+vectorizer_conver = joblib.load('vectorizer_conver.joblib')
 # Load dữ liệu tin tức
 with open('news_scrap_data.json', encoding='utf-8') as file:
     news_scrap_data = json.load(file)
@@ -21,8 +24,8 @@ with open('data.json', encoding='utf-8') as file:
     intents = json.load(file)
 
 def classify_intent_questions(msg):
-    data_processing = vectorizer.transform([msg]).toarray()
-    predict = loaded_model_svm.predict(data_processing)
+    data_processing = vectorizer_detec.transform([msg]).toarray()
+    predict = model_detec.predict(data_processing)
     x = predict[0]
     result = get_definition_and_trans(x)
     if result:
