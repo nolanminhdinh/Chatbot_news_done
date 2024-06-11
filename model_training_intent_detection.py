@@ -33,7 +33,7 @@ y_pred = svm_model.predict(X_test)
 joblib.dump(svm_model, 'model_intent_detection.joblib')
 
 # Lưu mô hình vector hóa
-joblib.dump(vectorizer, 'vectorizer.joblib')
+joblib.dump(vectorizer, 'vectorizer_detec.joblib')
 
 # Đánh giá kết quả mô hình 
 print(classification_report(y_test, y_pred))
