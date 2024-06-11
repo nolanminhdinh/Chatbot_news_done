@@ -45,7 +45,7 @@ def classify_intent(msg):
             if pattern.lower() in msg.lower():
                 return intent
     return None
-
+ 
 def chatbot_response(msg):
     categories = ["Thời sự", "Góc nhìn", "Thế giới", "Podcasts", "Kinh doanh", "Bất động sản", "Khoa học", 
                   "Giải trí", "Thể thao", "Pháp luật", "Giáo dục", "Sức khỏe", "Đời sống", "Du lịch", 
