@@ -1,0 +1,263 @@
+Pattern,Response,Tag
+Hi,Hello!,greeting
+Hello,Hi there!,greeting
+Hey,Hey!,greeting
+Good morning,Hi! How can I help you today?,greeting
+Good afternoon,Good day! How can I assist you?,greeting
+Good evening,Hello! What can I do for you?,greeting
+How are you?,Hey! How are you?,greeting
+What's up?,Hi there! How's it going?,greeting
+Greetings,Greetings! How can I be of service?,greeting
+Howdy,Howdy! What can I help you with?,greeting
+Hi there,Hi! How have you been?,greeting
+Hey there,Hello! How are you doing today?,greeting
+Nice to meet you,Hey! What can I assist you with?,greeting
+Pleased to meet you,Yo! What's up?,greeting
+How's it going?,Heya! What's new?,greeting
+How have you been?,Hiya! How can I help?,greeting
+Long time no see,Hey buddy! How's life?,greeting
+What's new?,What's cracking?,greeting
+"Hey, what's up?",What's cookin'?,greeting
+Hello there,Hey sunshine! How's it going?,greeting
+Good to see you,Top of the morning to you!,greeting
+How do you do?,What's the good word?,greeting
+Yo!,Sup?,greeting
+What's cracking?,How's tricks?,greeting
+Heya!,How's the world treating you?,greeting
+Hiya!,What's going on?,greeting
+How's life treating you?,What's the story?,greeting
+What's shaking?,How are things?,greeting
+Salutations!,Salutations!,greeting
+Hey buddy!,"Hey there, friend!",greeting
+What's cookin'?,"Not much, just here to help you out!",greeting
+Top of the morning to you!,Top of the morning to you too!,greeting
+How's everything?,Everything's great! How about you?,greeting
+What's the good word?,The good word is 'hello'! How can I assist you today?,greeting
+Sup?,"Not much, just here to assist you!",greeting
+How's tricks?,Tricks are good! How about you?,greeting
+How's the world treating you?,"The world is treating me well, thank you! How about you?",greeting
+What's going on?,"Not much, just here to help you out!",greeting
+What's the story?,"The story is, I'm here to help you!",greeting
+How are things?,Things are great! How about you?,greeting
+Hey sunshine!,Hey there! How can I brighten your day?,greeting
+Xin chào,Xin chào!,greeting
+Chào,Chào bạn!,greeting
+Chào bạn,Chào!,greeting
+Chào buổi sáng,Chào! Tôi có thể giúp gì cho bạn?,greeting
+Chào buổi chiều,Chào ngày mới! Tôi có thể giúp gì cho bạn?,greeting
+Chào buổi tối,Xin chào! Tôi có thể giúp gì cho bạn?,greeting
+Bạn khỏe không?,Chào! Bạn khỏe không?,greeting
+Có gì mới không?,Chào bạn! Bạn dạo này thế nào?,greeting
+Chào mừng,Xin chào! Tôi có thể giúp gì cho bạn?,greeting
+Xin chào bạn,Chào bạn! Tôi có thể giúp gì cho bạn?,greeting
+Chào bạn nhé,Chào! Bạn dạo này thế nào?,greeting
+Rất vui được gặp bạn,Xin chào! Bạn thế nào hôm nay?,greeting
+Hân hạnh được gặp bạn,Chào! Tôi có thể giúp gì cho bạn?,greeting
+Dạo này thế nào?,Chào! Có gì mới không?,greeting
+Bạn dạo này thế nào?,Chào bạn! Có gì mới?,greeting
+Lâu rồi không gặp,Chào bạn! Tôi có thể giúp gì cho bạn?,greeting
+Có gì mới không?,Chào bạn! Cuộc sống thế nào?,greeting
+"Chào bạn, dạo này sao rồi?",Có gì mới không?,greeting
+Xin chào bạn,Có gì vui không?,greeting
+Rất vui được gặp bạn,Chào bạn! Bạn dạo này thế nào?,greeting
+Bạn thế nào?,Chúc buổi sáng tốt lành!,greeting
+Này bạn!,Có gì mới không?,greeting
+Có gì mới không?,Bạn khỏe không?,greeting
+Chào nhé!,Mọi thứ thế nào?,greeting
+Bạn khỏe chứ?,Chào bạn!,greeting
+Cuộc sống của bạn thế nào?,Chúc ngày mới tốt lành!,greeting
+Có gì vui không?,Chúc bạn một ngày tốt lành!,greeting
+Chào bạn nhé!,Chào bạn!,greeting
+Goodbye,Goodbye!,goodbye
+Bye,Goodbye!,goodbye
+See you later,See you later!,goodbye
+See you soon,See you soon!,goodbye
+Take care,Take care!,goodbye
+Catch you later,Catch you later!,goodbye
+Farewell,Farewell!,goodbye
+Have a good day,Have a good day!,goodbye
+Talk to you later,Talk to you soon!,goodbye
+I have to go,"Okay, talk to you later!",goodbye
+Bye bye,Bye bye!,goodbye
+See you,See you later!,goodbye
+Later,Later!,goodbye
+I'm off,"Okay, take care!",goodbye
+Gotta go,"Alright, gotta go!",goodbye
+Take it easy,"You too, take it easy!",goodbye
+Peace out,Peace out!,goodbye
+Until next time,Until next time!,goodbye
+Catch you on the flip side,Catch you on the flip side!,goodbye
+Adios,Adios!,goodbye
+So long,So long!,goodbye
+I'm out,I'm out!,goodbye
+See ya,See ya!,goodbye
+Have a good one,Have a good one!,goodbye
+Catch you on the rebound,Catch you on the rebound!,goodbye
+Stay out of trouble,"You too, stay out of trouble!",goodbye
+Toodles,Toodles!,goodbye
+"Catch you later, alligator","Later, alligator!",goodbye
+Gotta bounce,Gotta bounce!,goodbye
+Smell you later,"Alright, smell you later!",goodbye
+Time to split,Time to split!,goodbye
+I'm heading out,I'm heading out!,goodbye
+I'll catch you later,"Sure thing, I'll catch you later!",goodbye
+It's been real,It's been real!,goodbye
+Hasta la vista,Hasta la vista!,goodbye
+Take it sleazy,Take it sleazy!,goodbye
+Don't get lost,"Don't worry, I won't!",goodbye
+Keep in touch,"Sure, keep in touch!",goodbye
+I'm outta here,I'm outta here!,goodbye
+Laters,Laters!,goodbye
+I'm Audi 5000,I'm Audi 5000!,goodbye
+Tạm biệt,Tạm biệt!,goodbye
+Chào tạm biệt,Hẹn gặp lại!,goodbye
+Hẹn gặp lại,Chào! Chúc bạn một ngày tốt lành!,goodbye
+Hẹn gặp bạn sớm,Giữ gìn sức khỏe!,goodbye
+Bảo trọng,Hẹn gặp lại!,goodbye
+Gặp bạn sau,Chào tạm biệt!,goodbye
+Chào,Nói chuyện sau nhé!,goodbye
+Chúc một ngày tốt lành,Tạm biệt nhé!,goodbye
+Nói chuyện sau nhé,Gặp lại sau nhé!,goodbye
+Mình phải đi rồi,Giữ gìn sức khỏe!,goodbye
+Tạm biệt nhé,Chào nhé!,goodbye
+Gặp lại sau,Hẹn gặp lại lần tới!,goodbye
+Sau này gặp lại,Chúc một ngày tốt lành!,goodbye
+Mình đi đây,Giữ gìn sức khỏe!,goodbye
+Phải đi rồi,Hẹn gặp lại!,goodbye
+Giữ gìn sức khỏe,Chúc bạn vui!,goodbye
+Chúc bạn vui,Chào nhé!,goodbye
+Hẹn gặp lại lần sau,Gặp lại sau nhé!,goodbye
+Chào nhé,Giữ gìn sức khỏe!,goodbye
+Hẹn gặp lại bạn,Tạm biệt!,goodbye
+Tạm biệt,Hẹn gặp lại lần sau!,goodbye
+Mình đi đây,Chào nhé!,goodbye
+Hẹn gặp lại sau,Chúc một ngày tốt lành!,goodbye
+Chúc bạn một ngày tốt lành,Giữ gìn sức khỏe!,goodbye
+Hẹn gặp lại lần tới,Chào tạm biệt!,goodbye
+Giữ gìn sức khỏe,Hẹn gặp lại!,goodbye
+Tạm biệt nhé,Chào tạm biệt!,goodbye
+Hẹn gặp lại,Giữ gìn sức khỏe!,goodbye
+Gặp lại sau,Chúc một ngày tốt lành!,goodbye
+Tạm biệt,Hẹn gặp lại!,goodbye
+Mình đi đây,Tạm biệt!,goodbye
+I don't agree,"I understand your point, but I see it differently.",disagreement
+That's not true,We might have to agree to disagree.,disagreement
+I disagree,Let's look at it from another perspective.,disagreement
+No way,"I see your point, but I don't agree.",disagreement
+Absolutely not,I have a different opinion on this.,disagreement
+I can't accept that,"I respect your view, but I think otherwise.",disagreement
+That's incorrect,"I see where you're coming from, but I disagree.",disagreement
+I beg to differ,"That's an interesting take, but I don't agree.",disagreement
+That's not right,"I appreciate your opinion, but I see it another way.",disagreement
+I'm not convinced,We have different viewpoints on this.,disagreement
+That's wrong,"I see it differently, but I respect your opinion.",disagreement
+I don't think so,"That's not how I see it, but I understand your perspective.",disagreement
+I have to disagree,We might have to leave it at that for now.,disagreement
+Not at all,"I see your side, but my experience tells me otherwise.",disagreement
+That's false,"I get your point, but my opinion differs.",disagreement
+I can't go along with that,I beg to differ.,disagreement
+I'm against that,I think you're mistaken.,disagreement
+I don't believe that,I'm afraid I have to disagree.,disagreement
+I reject that,I see things differently.,disagreement
+That's a misconception,That's not quite right.,disagreement
+I don't buy that,I'm not so sure about that.,disagreement
+That's not how I see it,"That's one way to look at it, but...",disagreement
+I can't support that,I don't share that view.,disagreement
+That's not my view,I have to contradict you.,disagreement
+Nope,My perspective is different.,disagreement
+Negative,I'm inclined to disagree.,disagreement
+I have a different opinion,That's not my understanding.,disagreement
+That's rubbish,I can't concur with that.,disagreement
+Nonsense,I respectfully disagree.,disagreement
+That's baloney,I have a contrary opinion.,disagreement
+That's a lie,I'm not convinced by that.,disagreement
+Not in a million years,I see it in another light.,disagreement
+I have to object,I must differ on this point.,disagreement
+I don't see it that way,That's not my interpretation.,disagreement
+That's poppycock,I have reservations about that.,disagreement
+That's hogwash,That's not how I would put it.,disagreement
+I can't agree with that,My thoughts are not aligned with that.,disagreement
+That's absurd,"Oh, looks like I made a mistake there. Thanks for pointing that out!",disagreement
+Ridiculous,"My apologies, it seems I misunderstood. Let me correct that.",disagreement
+That's preposterous,"Hmm, it appears I may have been mistaken. I'll make a note of that for future reference.",disagreement
+I'm skeptical,"You're right, that doesn't sound quite accurate. I'll need to update my knowledge base.",disagreement
+That's far-fetched,"Interesting, I didn't consider that perspective. I'll take note and improve.",disagreement
+That's implausible,"Ah, my apologies for any confusion. I appreciate you bringing that to my attention.",disagreement
+That's dubious,It seems I've missed the mark on that one. Thanks for helping me improve!,disagreement
+I have my doubts,"You're correct, I might need to reevaluate my understanding on that topic.",disagreement
+I'm not buying it,I see where I went wrong. Thanks for helping me learn!,disagreement
+That's questionable,My mistake. I'll make sure to verify information more thoroughly in the future.,disagreement
+I find that hard to believe,"Tôi hiểu quan điểm của bạn, nhưng tôi có cách nhìn khác.",disagreement
+Tôi không đồng ý,Chúng ta có thể phải đồng ý rằng không đồng ý.,disagreement
+Điều đó không đúng,Hãy nhìn từ một góc nhìn khác.,disagreement
+Tôi không đồng ý,"Tôi hiểu quan điểm của bạn, nhưng tôi không đồng ý.",disagreement
+Không đời nào,Tôi có quan điểm khác về việc này.,disagreement
+Hoàn toàn không,"Tôi tôn trọng ý kiến của bạn, nhưng tôi nghĩ khác.",disagreement
+Tôi không thể chấp nhận điều đó,"Tôi hiểu ý của bạn, nhưng tôi không đồng ý.",disagreement
+Điều đó không chính xác,"Đó là một quan điểm thú vị, nhưng tôi không đồng ý.",disagreement
+Tôi không đồng tình,"Tôi trân trọng ý kiến của bạn, nhưng tôi có cách nhìn khác.",disagreement
+Điều đó không đúng,Chúng ta có quan điểm khác nhau về việc này.,disagreement
+Tôi không tin,"Tôi thấy khác, nhưng tôi tôn trọng ý kiến của bạn.",disagreement
+Điều đó sai,"Đó không phải là cách tôi thấy, nhưng tôi hiểu quan điểm của bạn.",disagreement
+Tôi không nghĩ vậy,Có lẽ chúng ta sẽ để đó vậy.,disagreement
+Tôi phải không đồng ý,"Tôi hiểu quan điểm của bạn, nhưng kinh nghiệm của tôi lại khác.",disagreement
+Không hề,"Tôi hiểu ý của bạn, nhưng quan điểm của tôi khác.",disagreement
+Điều đó sai,Tôi không đồng tình.,disagreement
+Tôi không thể đồng tình với điều đó,Tôi nghĩ bạn sai rồi.,disagreement
+Tôi phản đối điều đó,Tôi e rằng tôi phải không đồng ý.,disagreement
+Tôi không tin điều đó,Tôi thấy khác.,disagreement
+Tôi từ chối điều đó,Điều đó không đúng.,disagreement
+Đó là một sự hiểu lầm,Tôi không chắc về điều đó.,disagreement
+Tôi không tin điều đó,"Đó là một cách nhìn, nhưng...",disagreement
+Tôi không đồng ý với điều đó,Tôi không chia sẻ quan điểm đó.,disagreement
+Tôi không ủng hộ điều đó,Tôi phải phản bác.,disagreement
+Đó không phải quan điểm của tôi,Quan điểm của tôi khác.,disagreement
+Không,Tôi không đồng ý.,disagreement
+Không,Đó không phải là hiểu biết của tôi.,disagreement
+Tôi có quan điểm khác,Tôi không đồng ý với điều đó.,disagreement
+Đó là điều vô lý,Tôi không đồng ý.,disagreement
+Vô lý,Tôi có quan điểm trái ngược.,disagreement
+Đó là lời nói dối,Tôi không tin điều đó.,disagreement
+Không đời nào,Tôi thấy khác.,disagreement
+Tôi phải phản đối,Tôi phải không đồng ý điểm này.,disagreement
+Tôi không thấy điều đó như vậy,Đó không phải là cách tôi hiểu.,disagreement
+Điều đó là vớ vẩn,Tôi có sự nghi ngờ về điều đó.,disagreement
+Điều đó không hợp lý,Đó không phải là cách tôi nói.,disagreement
+Tôi không thể đồng ý với điều đó,Suy nghĩ của tôi không đồng điệu với điều đó.,disagreement
+Cảm ơn,Không có gì!,thankyou
+Cảm ơn bạn,Bạn không cần phải cảm ơn đâu!,thankyou
+Cảm ơn nhiều,Rất vui được giúp đỡ bạn!,thankyou
+Rất cảm ơn,"Không có gì, tôi rất vui được giúp bạn!",thankyou
+Cảm ơn rất nhiều,Rất hân hạnh được giúp đỡ!,thankyou
+Cảm ơn bạn nhiều,Cảm ơn bạn đã nói!,thankyou
+Cảm ơn bạn rất nhiều,Rất vui vì tôi có thể giúp bạn!,thankyou
+Cảm ơn vì đã giúp,Không có chi!,thankyou
+Cảm ơn bạn vì đã giúp,Rất vui được hỗ trợ bạn!,thankyou
+Cảm ơn vì sự hỗ trợ,"Không có gì, thật vui vì tôi đã giúp được bạn!",thankyou
+Cảm ơn vì đã giúp tôi,"Cảm ơn bạn, rất vui được giúp đỡ!",thankyou
+Cảm ơn vì mọi thứ,"Bạn không cần phải cảm ơn, đó là niềm vui của tôi!",thankyou
+Cảm ơn sự giúp đỡ của bạn,Rất vui vì có thể giúp bạn!,thankyou
+Cảm ơn nhiều nhé,"Không có gì đâu, giúp bạn là niềm vui của tôi!",thankyou
+Rất cảm kích,Rất vui vì tôi có thể hỗ trợ bạn!,thankyou
+Cảm ơn rất nhiều nhé,"Không có chi, rất vui vì tôi đã có thể giúp đỡ!",thankyou
+Cảm ơn bạn rất nhiều vì đã giúp,"Cảm ơn bạn, tôi rất vui vì đã giúp được bạn!",thankyou
+Cảm ơn rất nhiều vì sự hỗ trợ của bạn,"Bạn không cần phải cảm ơn, tôi rất hạnh phúc vì đã giúp bạn!",thankyou
+Cảm ơn nhiều vì đã giúp tôi,"Rất vui được giúp bạn, không có chi!",thankyou
+Cảm ơn rất nhiều vì mọi thứ,"Cảm ơn bạn đã nói, tôi rất vui vì đã giúp được bạn!",thankyou
+Thank you,You're welcome!,thankyou
+Thanks,No problem!,thankyou
+Thank you very much,Glad to help!,thankyou
+Thanks a lot,Anytime!,thankyou
+Thanks so much,My pleasure!,thankyou
+Thank you so much,You're very welcome!,thankyou
+Thanks for your help,Happy to help!,thankyou
+Thank you for your help,Don't mention it!,thankyou
+Thanks for helping,No worries!,thankyou
+Thank you for helping,It's nothing!,thankyou
+I appreciate it,I'm here to help!,thankyou
+I appreciate your help,Not a problem!,thankyou
+Much appreciated,Always happy to assist!,thankyou
+I'm grateful,It was my pleasure!,thankyou
+Thanks a million,I'm glad I could help!,thankyou
+Thanks a bunch,"You're welcome, happy to assist!",thankyou
+Thank you for everything,"You're welcome, glad to help!",thankyou
