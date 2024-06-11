@@ -1,13 +1,16 @@
 import nltk
-nltk.download('popular')
-from nltk.stem import WordNetLemmatizer
 import numpy as np
 import joblib
 import json
 import random
 from flask import Flask, render_template, request
 
-lemmatizer = WordNetLemmatizer()
+# Load mô hình phân loại câu hỏi
+loaded_model_svm = joblib.load('model_intent_detection.joblib')
+vectorizer = joblib.load('vectorizer.joblib')
+with open('label_question_detect.json', 'r', encoding='utf-8') as file:
+    label_data = json.load(file)
+
 
 # Load dữ liệu tin tức
 with open('news_scrap_data.json', encoding='utf-8') as file:
@@ -17,21 +20,24 @@ with open('news_scrap_data.json', encoding='utf-8') as file:
 with open('data.json', encoding='utf-8') as file:
     intents = json.load(file)
 
-def clean_up_sentence(sentence):
-    sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
-    return sentence_words
+def classify_intent_questions(msg):
+    data_processing = vectorizer.transform([msg]).toarray()
+    predict = loaded_model_svm.predict(data_processing)
+    x = predict[0]
+    result = get_definition_and_trans(x)
+    if result:
+        return f" <strong>Chủ đề:</strong> {result['translation']}<br> . \n <strong>Thuộc chủ đề lớn: </strong> {result['definition']}<br>"
+    return "Không thể xác định chủ đề."
 
-def bow(sentence, words, show_details=True):
-    sentence_words = clean_up_sentence(sentence)
-    bag = [0] * len(words)
-    for s in sentence_words:
-        for i, w in enumerate(words):
-            if w == s:
-                bag[i] = 1
-                if show_details:
-                    print("found in bag: %s" % w)
-    return np.array(bag)
+def get_definition_and_trans(word):
+    result = {}
+    for category, values in label_data.items():
+        for subcategory, translation in values['types'].items():
+            if subcategory == word:
+                result['translation'] = translation
+                result['definition'] = values['definition']
+                return result
+    return None
 
 def classify_intent(msg):
     for intent in intents['intents']:
@@ -45,6 +51,12 @@ def chatbot_response(msg):
                   "Giải trí", "Thể thao", "Pháp luật", "Giáo dục", "Sức khỏe", "Đời sống", "Du lịch", 
                   "Số hóa", "Xe", "Ý kiến", "Tâm sự", "Thư giãn"]
 
+    if 'câu hỏi này là chủ đề gì' in msg.lower():
+        # Tách đoạn văn bản khỏi câu hỏi
+        content = msg.lower().replace('câu hỏi này là chủ đề gì', '').strip()
+        if content:
+            return classify_intent_questions(content)
+        return "Vui lòng nhập đoạn văn bản cần phân loại."
     intent = classify_intent(msg)
     if intent:
         return random.choice(intent['responses'])
