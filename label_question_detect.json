@@ -14,20 +14,20 @@
             "color": "màu sắc",
             "creative": "phát minh, sách và các tác phẩm sáng tạo khác",
             "currency": "tên tiền tệ",
-            "dis.med.": "bệnh tật và y học",
+            "dismed": "bệnh tật và y học",
             "event": "sự kiện",
             "food": "đồ ăn",
             "instrument": "nhạc cụ",
             "lang": "ngôn ngữ",
             "letter": "các chữ cái như a-z",
-            "other": "các thực thể khác",
+            "other entity": "các thực thể khác",
             "plant": "thực vật",
             "product": "các sản phẩm",
             "religion": "tôn giáo",
             "sport": "các môn thể thao",
             "substance": "nguyên tố và chất",
             "symbol": "biểu tượng và dấu hiệu",
-            "technique": "kỹ thuật và phương pháp",
+            "techmeth": "kỹ thuật và phương pháp",
             "term": "điều khoản tương đương",
             "vehicle": "xe cộ",
             "word": "từ có tính chất đặc biệt"
@@ -37,7 +37,7 @@
         "definition": "mô tả và khái niệm trừu tượng",
         "types": {
             "definition": "định nghĩa của sth",
-            "description": "mô tả của sth.",
+            "description of st": "mô tả của sth.",
             "manner": "cách hành động",
             "reason": "lý do"
         }
@@ -48,7 +48,7 @@
             "group": "một nhóm hoặc tổ chức của người",
             "ind": "một cá nhân",
             "title": "danh hiệu của một người",
-            "description": "mô tả về một người"
+            "description human": "mô tả về một người"
         }
     },
     "LOCATION": {
@@ -56,8 +56,8 @@
         "types": {
             "city": "các thành phố",
             "country": "Quốc gia",
-            "mountain": "núi",
-            "other": "các địa điểm khác",
+            "mount": "núi",
+            "other loc": "các địa điểm khác",
             "state": "Những trạng thái"
         }
     },
@@ -67,10 +67,10 @@
             "code": "mã bưu điện hoặc mã khác",
             "count": "số của cái gì đó",
             "date": "ngày",
-            "dist": "khoảng cách",
+            "distance": "khoảng cách",
             "money": "giá cả",
             "order": "cấp bậc",
-            "other": "những con số khác",
+            "other num": "những con số khác",
             "period": "thời gian kéo dài của sth.",
             "percent": "phân số",
             "speed": "tốc độ",
