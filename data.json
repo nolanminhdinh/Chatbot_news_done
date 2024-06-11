@@ -1,0 +1,69 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Xin chào",
+                "Chào bạn",
+                "Hello"
+            ],
+            "responses": [
+                "Xin chào, cảm ơn bạn đã hỏi",
+                "Rất vui được gặp lại bạn",
+                "Xin chào, tôi có thể giúp gì cho bạn?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Tạm biệt",
+                "Hẹn gặp lại sau",
+                "Goodbye",
+                "Chào bạn, hẹn gặp lại sau",
+                "Hẹn gặp lại lần sau"
+            ],
+            "responses": [
+                "Hẹn gặp lại bạn!",
+                "Chúc bạn một ngày tốt lành",
+                "Tạm biệt! Hẹn gặp lại sớm."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Cảm ơn",
+                "Xin cảm ơn",
+                "Rất hữu ích",
+                "Tuyệt vời, cảm ơn",
+                "Cảm ơn vì đã giúp đỡ"
+            ],
+            "responses": [
+                "Rất vui được giúp đỡ!",
+                "Bất cứ lúc nào!",
+                "Vui lòng!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Xin lỗi, tôi không thể hiểu bạn",
+                "Vui lòng cung cấp thêm thông tin",
+                "Tôi không chắc mình đã hiểu"
+            ],
+            "context": [
+                ""
+            ]
+        }
+        
+    ]
+}        
