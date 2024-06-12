@@ -96,13 +96,6 @@ def chatbot_response(msg):
         link = news['news_link']
         return f"<strong>Tiêu đề:</strong> {title}<br> \n <strong>Nội dung:</strong> {summary}<br> \n <strong>Chủ đề:</strong> {news['category']}<br> \n <a href='{link}' target='_blank'>Xem thêm</a><br><br>"
 
-def chatbot_response(msg):
-    intent = classify_intent(msg)
-    if intent:
-        return random.choice(intent['responses'])
-    else:
-        return "Tôi không hiểu câu hỏi của bạn. Bạn có thể nói rõ hơn không?"
-
 app = Flask(__name__)
 app.static_folder = 'static'
 
