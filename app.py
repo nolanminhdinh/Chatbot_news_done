@@ -12,7 +12,6 @@ vectorizer_detec = joblib.load('vectorizer_detec.joblib')
 with open('label_question_detect.json', 'r', encoding='utf-8') as file:
     label_data = json.load(file)
 
-
 # Load mô hình hội thoại  
 model_conver = joblib.load('model_conversation.joblib')
 vectorizer_conver = joblib.load('vectorizer_conver.joblib')
