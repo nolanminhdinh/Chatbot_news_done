@@ -4,6 +4,7 @@ import joblib
 import json
 import random
 from flask import Flask, render_template, request
+from mtranslate import translate
 
 # Load mô hình phân loại câu hỏi
 model_detec = joblib.load('model_intent_detection.joblib')
@@ -15,21 +16,24 @@ with open('label_question_detect.json', 'r', encoding='utf-8') as file:
 # Load mô hình hội thoại  
 model_conver = joblib.load('model_conversation.joblib')
 vectorizer_conver = joblib.load('vectorizer_conver.joblib')
+
+
 # Load dữ liệu tin tức
 with open('news_scrap_data.json', encoding='utf-8') as file:
     news_scrap_data = json.load(file)
 
 # Load dữ liệu intents từ file data.json
-with open('data.json', encoding='utf-8') as file:
+with open('data_basic_conver.json', encoding='utf-8') as file:
     intents = json.load(file)
 
 def classify_intent_questions(msg):
+    msg = translate(msg, "en")
     data_processing = vectorizer_detec.transform([msg]).toarray()
     predict = model_detec.predict(data_processing)
     x = predict[0]
     result = get_definition_and_trans(x)
     if result:
-        return f" <strong>Chủ đề:</strong> {result['translation']}<br> . \n <strong>Thuộc chủ đề lớn: </strong> {result['definition']}<br>"
+        return f" <strong>Chủ đề:</strong> {result['translation']}<br> \n <strong>Thuộc chủ đề lớn: </strong> {result['definition']}<br>"
     return "Không thể xác định chủ đề."
 
 def get_definition_and_trans(word):
@@ -49,21 +53,16 @@ def classify_intent(msg):
                 return intent
     return None
  
+
 def chatbot_response(msg):
     categories = ["Thời sự", "Góc nhìn", "Thế giới", "Podcasts", "Kinh doanh", "Bất động sản", "Khoa học", 
                   "Giải trí", "Thể thao", "Pháp luật", "Giáo dục", "Sức khỏe", "Đời sống", "Du lịch", 
                   "Số hóa", "Xe", "Ý kiến", "Tâm sự", "Thư giãn"]
 
-    if 'câu hỏi này là chủ đề gì' in msg.lower():
-        # Tách đoạn văn bản khỏi câu hỏi
-        content = msg.lower().replace('câu hỏi này là chủ đề gì', '').strip()
-        if content:
-            return classify_intent_questions(content)
-        return "Vui lòng nhập đoạn văn bản cần phân loại."
     intent = classify_intent(msg)
     if intent:
         return random.choice(intent['responses'])
-
+    
     selected_category = None
     for category in categories:
         if category.lower() in msg.lower():
@@ -98,6 +97,14 @@ def chatbot_response(msg):
         summary = news['summary']
         link = news['news_link']
         return f"<strong>Tiêu đề:</strong> {title}<br> \n <strong>Nội dung:</strong> {summary}<br> \n <strong>Chủ đề:</strong> {news['category']}<br> \n <a href='{link}' target='_blank'>Xem thêm</a><br><br>"
+    
+    # code xác định chủ đề câu hỏi
+    elif 'chủ đề của câu hỏi:' in msg.lower():
+        # Tách đoạn văn bản khỏi câu hỏi
+        content = msg.lower().replace('chủ đề của câu hỏi:', '').strip()
+        if content:
+            return classify_intent_questions(content)
+        return "Vui lòng nhập đoạn văn bản cần phân loại."
 
 app = Flask(__name__)
 app.static_folder = 'static'
